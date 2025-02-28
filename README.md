@@ -20,8 +20,8 @@ This repository contains the Full Stack web development task assigned by **Swiss
 
 ## 🛠 **Tech Stack**
 - **Frontend:** React.js, Tailwind CSS
-- **Backend:** Node.js, Express.js
+- **Backend:**  Django
 - **Database:** MongoDB (if applicable)
 - **Version Control:** Git & GitHub
 
-## 📂 **Project Structure**
+
