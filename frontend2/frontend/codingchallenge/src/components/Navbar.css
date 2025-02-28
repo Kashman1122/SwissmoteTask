@@ -1,0 +1,90 @@
+/* Navbar Container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, black, black, rgb(1, 1, 60), rgb(1, 1, 123));
+    padding: 15px 20px;
+    color: white;
+    
+  }
+
+
+  /* Dark Grey Background for Other Pages */
+.default-navbar {
+  background: #1d1c1c;
+}
+  
+  /* Logo */
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Hamburger Menu */
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .hamburger span {
+    background-color: white;
+    height: 3px;
+    width: 25px;
+    margin: 4px 0;
+    transition: 0.3s;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .hamburger {
+      display: flex;
+    }
+  
+    .nav-links {
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background-color: #333;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      display: none;
+      padding: 15px 0;
+    }
+  
+    .nav-links.open {
+      display: flex;
+    }
+  
+    .nav-links li {
+      display: block;
+      padding: 10px 0;
+    }
+  }
+  

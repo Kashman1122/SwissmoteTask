@@ -1,0 +1,166 @@
+/* Home.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, black, black, rgb(1, 1, 60), rgb(1, 1, 123));
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 5rem;
+    font-weight: bold;
+  }
+  
+  .white-text {
+    color: white;
+  }
+  
+  .blue-text {
+    color: #4f8ef7;
+  }
+  
+  .get-started-btn {
+    margin-top: 15px;
+    padding: 20px 30px;
+    background-color: #272728;
+    color: white;
+    font-size: 1.2rem;
+    border: 1px solid #c5c0c0;
+    border-radius: 30px;
+
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .get-started-btn:hover {
+    background-color: #3467d1;
+  }
+  
+  /* From Uiverse.io by neerajbaniwal */ 
+.btn-shine {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 12px 48px;
+    color: #fff;
+    background: linear-gradient(to right, #9f9f9f 0, #fff 10%, #868686 20%);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    white-space: nowrap;
+    font-family: "Poppins", sans-serif;
+  }
+  @-moz-keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 180px;
+    }
+    100% {
+      background-position: 180px;
+    }
+  }
+  @-webkit-keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 180px;
+    }
+    100% {
+      background-position: 180px;
+    }
+  }
+  @-o-keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 180px;
+    }
+    100% {
+      background-position: 180px;
+    }
+  }
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 180px;
+    }
+    100% {
+      background-position: 180px;
+    }
+  }
+  
+  
+  .code-editor-img {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .languages {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    color: grey;
+  }
+  
+  .features {
+    margin-top: 60px;
+    width: 80%;
+    max-width: 900px;
+  }
+  
+  .features-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+  }
+  
+  .feature-card {
+    background: #00001052;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+  
+  .feature-card h3 {
+    color: #e4e4e4;
+    font-size: 1.4rem;
+  }
+  
+  .feature-card p {
+    color: #6b6969;
+    font-size: 1rem;
+  }
+  

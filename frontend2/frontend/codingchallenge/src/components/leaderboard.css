@@ -1,0 +1,226 @@
+.leaderboard-container {
+    width: 1100px;
+    margin: 50px auto;
+    padding: 20px;
+    background: linear-gradient(to right, #1e1e1e, #24292e);
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    color: white;
+    text-align: center;
+  }
+  
+  .leaderboard-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .leaderboard-subtitle {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .loading, .error, .no-data {
+    font-size: 18px;
+    color: #ffcc00;
+  }
+  
+  .leaderboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #1d1f21;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .leaderboard-table th, .leaderboard-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 2px solid #444;
+  }
+  
+  .leaderboard-table th {
+    background: #3a3f44;
+    color: #ffcc00;
+    font-size: 16px;
+  }
+  
+  .leaderboard-table tr:nth-child(even) {
+    background: #2a2e33;
+  }
+  
+  .leaderboard-table tr:hover {
+    background: #393f45;
+    transition: 0.3s;
+  }
+  
+  .status.completed {
+    color: #00ff00;
+  }
+  
+  .status.in-progress {
+    color: #ffcc00;
+  }
+  
+  .status.failed {
+    color: #ff4444;
+  }
+  
+
+  .leaderboard-container {
+    width: 97%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .leaderboard-title {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .leaderboard-subtitle {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #cccccc;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+    margin: 25px 0 15px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #444;
+  }
+  
+  .chart-hint {
+    text-align: center;
+    color: #aaa;
+    font-style: italic;
+    margin-bottom: 15px;
+  }
+  
+  /* Bar Chart Styles */
+  .chart-section {
+    margin: 30px 0;
+  }
+  
+  .bar-chart-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 250px;
+    margin: 20px 0;
+    padding: 20px 10px 0;
+    border: 1px solid #444;
+    border-radius: 6px;
+    background-color: #2d2d2d;
+  }
+  
+  .bar-chart-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+  }
+  
+  .bar-wrapper {
+    height: 200px;
+    width: 50px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+  }
+  
+  .bar {
+    width: 100%;
+    min-height: 5px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    transition: height 1s ease;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .score {
+    position: absolute;
+    top: -25px;
+    font-weight: bold;
+  }
+  
+  .bar-label {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .back-button {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .back-button:hover {
+    background-color: #5a6268;
+  }
+  
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .leaderboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .leaderboard-table th, .leaderboard-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+  }
+  
+  .leaderboard-table th {
+    background-color: #333;
+    font-weight: bold;
+  }
+  
+  .leaderboard-table tr:hover {
+    background-color: #2a2a2a;
+  }
+  
+  .status {
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  .status.completed {
+    background-color:rgba(12, 218, 60, 0.87);
+  }
+  
+  .status.submitted {
+    background-color:rgba(23, 163, 184, 0);
+  }
+  
+  .in-progress{
+            color:rgb(227, 230, 232);
+
+  }
+  .status.in-progress {
+    background-color:rgba(255, 193, 7, 0);
+  }
+  
+  .status.pending {
+  color:#fff;
+    background-color:rgba(108, 117, 125, 0);
+  }
