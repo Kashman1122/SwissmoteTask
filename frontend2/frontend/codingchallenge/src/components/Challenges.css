@@ -37,3 +37,96 @@
   }
   
 
+      h1, p {
+  text-align: left;
+}
+
+     
+        .container {
+          background-color: rgb(5, 5, 5);
+          color: white;
+          padding: 20px;
+        }
+        .selected-category {
+          text-align: center;
+          font-size: 14px;
+          color: white;
+          margin-top: 5px;
+          margin-bottom: 5px;
+        }
+        .challenge-box {
+          width: 90%;
+          border: 1px solid rgb(188, 188, 188);
+          background-color: rgba(63, 63, 63, 0.54);
+          color: white;
+          padding: 15px;
+          border-radius: 10px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        .challenge-content {
+          display: flex;
+          width: 100%;
+          align-items: center;
+        }
+        
+
+        .button-group {
+          display: flex;
+          gap: 10px;
+          margin-left: auto;
+        }
+        .category-buttons {
+          display: flex;
+          justify-content: center;
+          gap: 10px;
+          margin-bottom: 20px;
+        }
+        .category-buttons button {
+          background-color: #444;
+          color: white;
+          border: none;
+          padding: 10px 15px;
+          border-radius: 5px;
+          cursor: pointer;
+          font-size: 14px;
+        }
+        .category-buttons .active {
+          background-color: #007BFF;
+        }
+        .category-buttons button:hover {
+          background-color: #555;
+        }
+        .challenges-list {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 15px;
+          margin-top: 20px;
+          overflow-y: auto;
+          max-height: 600px;
+          scrollbar-width: none;
+        }
+        .challenges-list::-webkit-scrollbar {
+          display: none;
+        }
+        .code-btn, .leaderboard-btn {
+          background-color: rgb(29, 29, 30);
+          color: white;
+          padding: 8px 16px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          cursor: pointer;
+          font-size: 14px;
+        }
+        .leaderboard-btn {
+          background-color: rgb(105, 7, 218);
+        }
+        .code-btn:hover {
+          background-color: #0056b3;
+        }
+        .leaderboard-btn:hover {
+          background-color: #218838;
+        }
